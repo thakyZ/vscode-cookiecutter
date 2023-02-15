@@ -27,13 +27,13 @@ function activate(context) {
         };
         template(ccDir).then(selection => {
             // the user canceled the selection
-            if (!selection) {
+            if (selection === false) {
                 return;
             }
 
             // the user selected some item. You could use `selection.name` too
-            var command = "".concat("cookiecutter -o ", param.path, " ", selection);
-            
+            var command = `cookiecutter -o ${param.path} ${selection}`;
+
             if (vscode.window.terminals.length < 1) {
                 term = vscode.window.createTerminal("bash");
             } else {

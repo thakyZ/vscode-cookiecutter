@@ -15,9 +15,6 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "onCommand:extension.cookiecutter"
-  ],
   "main": "./extension",
   "contributes": {
     "commands": [
@@ -29,7 +26,7 @@
     "menus": {
       "explorer/context": [
         {
-          "when": "explorerResourceIsFolder",
+          "when": "explorerResourceIsFolder && !inDiffEditor",
           "command": "extension.cookiecutter"
         }
       ]
@@ -37,7 +34,12 @@
   },
   "scripts": {
     "postinstall": "node ./node_modules/vscode/bin/install",
-    "test": "node ./node_modules/vscode/bin/test"
+    "test": "node ./node_modules/vscode/bin/test",
+    "build": "tsc -p .",
+    "eslint": "eslint \"src/**/*.ts\"",
+    "compile": "tsc -b",
+    "watch": "tsc -b -w",
+    "start": "code testproject --extensionDevelopmentPath=."
   },
   "devDependencies": {
     "@types/mocha": "^10.0.1",
@@ -50,13 +52,13 @@
     "js-yaml": "^4.1.0",
     "vsce": "^2.15.0"
   },
-  "homepage": "https://github.com/gongxiao/vscode-cookiecutter",
+  "homepage": "https://github.com/thakyz/vscode-cookiecutter",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gongxiao/vscode-cookiecutter.git"
+    "url": "https://github.com/thakyz/vscode-cookiecutter.git"
   },
   "bugs": {
-    "url": "https://github.com/gongxiao/vscode-cookiecutter/issues"
+    "url": "https://github.com/thakyz/vscode-cookiecutter/issues"
   },
   "license": "MIT",
   "keywords": [

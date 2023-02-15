@@ -1,8 +1,8 @@
-[![](https://vsmarketplacebadge.apphb.com/version-short/gxiao.cookiecutter.svg)](https://marketplace.visualstudio.com/items?itemName=gxiao.cookiecutter)
-[![](https://vsmarketplacebadge.apphb.com/downloads-short/gxiao.cookiecutter.svg)](https://marketplace.visualstudio.com/items?itemName=gxiao.cookiecutter)
-[![](https://vsmarketplacebadge.apphb.com/rating-short/gxiao.cookiecutter.svg)](https://marketplace.visualstudio.com/items?itemName=gxiao.cookiecutter)
-
 # Cookiecutter for Visual Studio Code
+
+[![Cookiecutter Version](https://vsmarketplacebadge.apphb.com/version-short/gxiao.cookiecutter.png)](https://marketplace.visualstudio.com/items?itemName=gxiao.cookiecutter)
+[![Cookiecutter Downloads Count](https://vsmarketplacebadge.apphb.com/downloads-short/gxiao.cookiecutter.png)](https://marketplace.visualstudio.com/items?itemName=gxiao.cookiecutter)
+[![Cookiecutter Ratings](https://vsmarketplacebadge.apphb.com/rating-short/gxiao.cookiecutter.png)](https://marketplace.visualstudio.com/items?itemName=gxiao.cookiecutter)
 
 Visual Studio Code extension for running [cookiecutter](https://github.com/audreyr/cookiecutter) to creates projects from project templates.
 
@@ -27,5 +27,5 @@ Visual Studio Code extension for running [cookiecutter](https://github.com/audre
 * when create new terminal should wait for input
 * add operation demo GIF
 
-[Bug Reports](https://github.com/gongxiao/vscode-cookiecutter/issues)  
+[Bug Reports](https://github.com/gongxiao/vscode-cookiecutter/issues)
 [Repo](https://github.com/gongxiao/vscode-cookiecutter)

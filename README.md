@@ -1,8 +1,8 @@
 # Cookiecutter for Visual Studio Code
 
-[![Cookiecutter Version](https://vsmarketplacebadge.apphb.com/version-short/gxiao.cookiecutter.png)](https://marketplace.visualstudio.com/items?itemName=gxiao.cookiecutter)
-[![Cookiecutter Downloads Count](https://vsmarketplacebadge.apphb.com/downloads-short/gxiao.cookiecutter.png)](https://marketplace.visualstudio.com/items?itemName=gxiao.cookiecutter)
-[![Cookiecutter Ratings](https://vsmarketplacebadge.apphb.com/rating-short/gxiao.cookiecutter.png)](https://marketplace.visualstudio.com/items?itemName=gxiao.cookiecutter)
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/gxiao.cookiecutter?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=gxiao.cookiecutter)
+[![Cookiecutter Downloads Count](https://img.shields.io/visual-studio-marketplace/d/gxiao.cookiecutter?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=gxiao.cookiecutter)
+[![Cookiecutter Ratings](https://img.shields.io/visual-studio-marketplace/stars/gxiao.cookiecutter?style=for-the-badge)](https://marketplace.visualstudio.com/items?itemName=gxiao.cookiecutter)
 
 Visual Studio Code extension for running [cookiecutter](https://github.com/audreyr/cookiecutter) to creates projects from project templates.
 
